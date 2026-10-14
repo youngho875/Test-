@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MapSources version="1">
+  <Layer id="raster-5M" name="1:50,000" type="Raster" family="육도">
+    <visual>false</visual>
+    <Path>D:/map/raster/5M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>50000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="raster-10M" name="1:100,000" type="Raster" family="육도">
+    <visual>false</visual>
+    <Path>D:/map/raster/10M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>100000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="raster-25M" name="1:250,000" type="Raster" family="공도">
+    <visual>false</visual>
+    <Path>D:/map/raster/25M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>250000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="raster-50M" name="1:500,000" type="Raster" family="공도">
+    <visual>false</visual>
+    <Path>D:/map/raster/50M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>500000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="raster-100M" name="1:1,000,000" type="Raster" family="공도">
+    <visual>false</visual>
+    <Path>D:/map/raster/100M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>1000000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="raster-200M" name="1:2,000,000" type="Raster" family="공도">
+    <visual>false</visual>
+    <Path>D:/map/raster/200M</Path>
+    <Extensions>tif;tiff;tl2;tc2;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>2000000</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="cib" name="위성영상 / CIB" type="CIB" family="CIB">
+    <visual>false</visual>
+    <Path>D:/map/satellite</Path>
+    <Extensions>tif;tiff;i42;i21;i22;i41;ntf;nitf;img;vrt</Extensions>
+    <Recursive>true</Recursive>
+    <Scale>0</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+    <SRS />
+  </Layer>
+  <Layer id="wms" name="WMS 서버 설정" type="WMS" family="WMS">
+    <visual>false</visual>
+    <Endpoint />
+    <LayerName />
+    <TileMatrixSet />
+    <Style />
+    <Version>1.1.1</Version>
+    <Format>image/png</Format>
+    <Scale>0</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+  </Layer>
+  <Layer id="wfs" name="WFS 서버 설정" type="WFS" family="WFS">
+    <visual>false</visual>
+    <Endpoint />
+    <LayerName />
+    <TileMatrixSet />
+    <Style />
+    <Version>2.0.0</Version>
+    <Format>image/png</Format>
+    <Scale>0</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+  </Layer>
+  <Layer id="wmts" name="WMTS 서버 설정" type="WMTS" family="WMTS">
+    <visual>false</visual>
+    <Endpoint />
+    <LayerName />
+    <TileMatrixSet />
+    <Style />
+    <Version>1.0.0</Version>
+    <Format>image/png</Format>
+    <Scale>0</Scale>
+    <MinScale>0</MinScale>
+    <MaxScale>0</MaxScale>
+  </Layer>
+</MapSources>

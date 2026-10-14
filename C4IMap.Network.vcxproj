@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{6E0FEC84-CBA7-47B3-B4FC-7A34D2626114}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>C4IMapNetwork</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>D:/work/상황도/Debug/Bin/</OutDir>
+    <IntDir>./Debug/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>D:\work\상황도\Release\Bin\</OutDir>
+    <IntDir>./Release/</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;GDIPLUS_USE_GDIPLUS_MEM;_AFX_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>c:/gdal_sdk/include;C:/gdal_sdk/include/geos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>D:/work/상황도/Debug/Bin/C4IMap.pdb</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4251;4244;4267;4430;4819;4096;4091;4311;4302;4312;4927;4018</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>D:/work/상황도/Debug/Bin/C4IMap.exe</OutputFile>
+      <AdditionalLibraryDirectories>d:/work/상황도/Debug/Lib;c:/gdal_sdk/lib;D:\work\상황도\Debug\Lib\ICOPS2010V11520</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GeoDC.lib;GeoTrans.lib;CIDataMgr.lib;Loadshp_rtree.lib;geotiff.lib;tiff.lib;BMGlib.lib;BMGLibJPEG.lib;BMGLibPNG.lib;BMGGeoTIFF.lib;Overlay.lib;AltitudeMgr.lib;gdal_i.lib;rpcrt4.lib;ICOPS_Framework_2010.lib;ICOPS_LogManager_2010.lib;ICOPS_WarSym_2010.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NOMINMAX;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../gdal_sdk/include;../LibSrc/include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4244;4251;4267;4430;4819</DisableSpecificWarnings>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(ProjectDir)dist\Network\C4IMap.exe</OutputFile>
+      <AdditionalDependencies>$(ProjectDir)OverlaySDK\bin\x64\Release\C4Overlay.lib;GeoDC.lib;GeoTrans.lib;geotiff.lib;tiff.lib;gdal_i.lib;AltitudeMgr.lib;rpcrt4.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\LibSrc\lib\$(Platform)\$(Configuration);$(ProjectDir)..\LibSrc\lib;$(ProjectDir)..\gdal_sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="MapSources.h" />
+    <ClInclude Include="MapBuildOptions.h" />
+    <ClInclude Include="LocalOverlay.h" />
+    <ClInclude Include="C4IMap.h" />
+    <ClInclude Include="C4IMapDoc.h" />
+    <ClInclude Include="C4IMapView.h" />
+    <ClInclude Include="C4IMapViewHeader.h" />
+    <ClInclude Include="CaptureWindow.h" />
+    <ClInclude Include="ComDefStringValue.h" />
+    <ClInclude Include="GlobalVar.h" />
+    <ClInclude Include="IndexMapView.h" />
+    <ClInclude Include="MapObjectManager.h" />
+    <ClInclude Include="MapObjectOrderList.h" />
+    <ClInclude Include="MapObjectViewTree.h" />
+    <ClInclude Include="MapPropertiesWnd.h" />
+    <ClInclude Include="MessageDefine.h" />
+    <ClInclude Include="OutputLogList.h" />
+    <ClInclude Include="Dbf.h" />
+    <ClInclude Include="DIBSectionLite.h" />
+    <ClInclude Include="DisplayElement.h" />
+    <ClInclude Include="FileFinder.h" />
+    <ClInclude Include="FilePath.h" />
+    <ClInclude Include="Flags.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GColorData.h" />
+    <ClInclude Include="GEnvVar.h" />
+    <ClInclude Include="GFileUtil.h" />
+    <ClInclude Include="GLib.h" />
+    <ClInclude Include="GlobalInfo.h" />
+    <ClInclude Include="GMapInfo.h" />
+    <ClInclude Include="GMapLib.h" />
+    <ClInclude Include="GStatusFlag.h" />
+    <ClInclude Include="GViewInfo.h" />
+    <ClInclude Include="Ini.h" />
+    <ClInclude Include="Initiator.h" />
+    <ClInclude Include="io.hpp" />
+    <ClInclude Include="ItemView.h" />
+    <ClInclude Include="LayerView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MapConfigMgr.h" />
+    <ClInclude Include="MapDataMgr.h" />
+    <ClInclude Include="MapGeneratorDlg.h" />
+    <ClInclude Include="IndexMapWnd.h" />
+    <ClInclude Include="OutputSearchList.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PathFile.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PointDisplay.h" />
+    <ClInclude Include="pointStruct.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SafeQueue.h" />
+    <ClInclude Include="ShapeT.h" />
+    <ClInclude Include="Shp.h" />
+    <ClInclude Include="shpCommon.h" />
+    <ClInclude Include="shpDBF.h" />
+    <ClInclude Include="ShpMgr.h" />
+    <ClInclude Include="shpMultiPoint.h" />
+    <ClInclude Include="shpObject.h" />
+    <ClInclude Include="shpPoint.h" />
+    <ClInclude Include="shpPoly.h" />
+    <ClInclude Include="shpPolygon.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TmsMgr.h" />
+    <ClInclude Include="TypeView.h" />
+    <ClInclude Include="ViewList.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\inc\GPoint.cpp" />
+    <ClCompile Include="MapSources.cpp" />
+    <ClCompile Include="LocalOverlay.cpp" />
+    <ClCompile Include="C4IMap.cpp" />
+    <ClCompile Include="C4IMapDoc.cpp" />
+    <ClCompile Include="C4IMapView.cpp" />
+    <ClCompile Include="C4IMapView_Draw.cpp" />
+    <ClCompile Include="C4IMapView_Etc.cpp" />
+    <ClCompile Include="C4IMapView_Hitest.cpp" />
+    <ClCompile Include="C4IMapView_Init.cpp" />
+    <ClCompile Include="C4IMapView_Menu.cpp" />
+    <ClCompile Include="C4IMapView_MouseEvent.cpp" />
+    <ClCompile Include="CaptureWindow.cpp" />
+    <ClCompile Include="Dbf.cpp" />
+    <ClCompile Include="DIBSectionLite.cpp" />
+    <ClCompile Include="FileFinder.cpp" />
+    <ClCompile Include="FilePath.cpp" />
+    <ClCompile Include="GColorData.cpp" />
+    <ClCompile Include="GEnvVar.cpp" />
+    <ClCompile Include="GFileUtil.cpp" />
+    <ClCompile Include="GLib.cpp" />
+    <ClCompile Include="GLibColor.cpp" />
+    <ClCompile Include="GLibRes.cpp" />
+    <ClCompile Include="GMapLib.cpp" />
+    <ClCompile Include="GStatusFlag.cpp" />
+    <ClCompile Include="GViewInfo.cpp" />
+    <ClCompile Include="IndexMapView.cpp" />
+    <ClCompile Include="Ini.cpp" />
+    <ClCompile Include="Initiator.cpp" />
+    <ClCompile Include="io.cpp" />
+    <ClCompile Include="ItemView.cpp" />
+    <ClCompile Include="LayerView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MapConfigMgr.cpp" />
+    <ClCompile Include="MapDataMgr.cpp" />
+    <ClCompile Include="MapGeneratorDlg.cpp" />
+    <ClCompile Include="MapObjectManager.cpp" />
+    <ClCompile Include="MapObjectOrderList.cpp" />
+    <ClCompile Include="MapObjectViewTree.cpp" />
+    <ClCompile Include="MapPropertiesWnd.cpp" />
+    <ClCompile Include="IndexMapWnd.cpp" />
+    <ClCompile Include="OutputLogList.cpp" />
+    <ClCompile Include="OutputSearchList.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PathFile.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PointDisplay.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="SafeQueue.cpp" />
+    <ClCompile Include="ShapeT.cpp" />
+    <ClCompile Include="Shp.cpp" />
+    <ClCompile Include="shpDBF.cpp" />
+    <ClCompile Include="ShpMgr.cpp" />
+    <ClCompile Include="shpMultiPoint.cpp" />
+    <ClCompile Include="shpObject.cpp" />
+    <ClCompile Include="shpPoint.cpp" />
+    <ClCompile Include="shpPoly.cpp" />
+    <ClCompile Include="shpPolygon.cpp" />
+    <ClCompile Include="TmsMgr.cpp" />
+    <ClCompile Include="TypeView.cpp" />
+    <ClCompile Include="ViewList.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C4IMap.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\LIBSrc\GeoDC\res\disconnect.png" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\ButtonBitmap\move_left.bmp" />
+    <Image Include="res\ButtonBitmap\move_left_click.bmp" />
+    <Image Include="res\ButtonBitmap\move_right.bmp" />
+    <Image Include="res\ButtonBitmap\move_right_click.bmp" />
+    <Image Include="res\buttons.bmp" />
+    <Image Include="res\button\click_center.bmp" />
+    <Image Include="res\button\click_left.bmp" />
+    <Image Include="res\button\click_right.bmp" />
+    <Image Include="res\button\default_center.bmp" />
+    <Image Include="res\button\default_left.bmp" />
+    <Image Include="res\button\default_right.bmp" />
+    <Image Include="res\button\disable_center.bmp" />
+    <Image Include="res\button\disable_left.bmp" />
+    <Image Include="res\button\disable_right.bmp" />
+    <Image Include="res\button\focus_center.bmp" />
+    <Image Include="res\button\focus_left.bmp" />
+    <Image Include="res\button\focus_right.bmp" />
+    <Image Include="res\button\over_center.bmp" />
+    <Image Include="res\button\over_left.bmp" />
+    <Image Include="res\button\over_right.bmp" />
+    <Image Include="res\C4IMap.ico" />
+    <Image Include="res\C4IMapDoc.ico" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_vi.ico" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\disconnect.png" />
+    <Image Include="res\DockPanes\indexmap.bmp" />
+    <Image Include="res\DockPanes\indexmap_24.bmp" />
+    <Image Include="res\DockPanes\maporder_list.bmp" />
+    <Image Include="res\DockPanes\maporder_list_24.bmp" />
+    <Image Include="res\DockPanes\mapview_tree.bmp" />
+    <Image Include="res\DockPanes\mapview_tree_24.bmp" />
+    <Image Include="res\DockPanes\overlay_toolbar.bmp" />
+    <Image Include="res\DockPanes\overlay_toolbar_24.bmp" />
+    <Image Include="res\DockPanes\overlay_tree.bmp" />
+    <Image Include="res\DockPanes\overlay_tree_24.bmp" />
+    <Image Include="res\DockPanes\tree_check.bmp" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\filelarge.bmp" />
+    <Image Include="res\filesmall.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\ico00004.ico" />
+    <Image Include="res\ico00005.ico" />
+    <Image Include="res\icon\곡선.bmp" />
+    <Image Include="res\icon\곡선_on.bmp" />
+    <Image Include="res\icon\그림.bmp" />
+    <Image Include="res\icon\그림_on.bmp" />
+    <Image Include="res\icon\다각선.bmp" />
+    <Image Include="res\icon\다각선_on.bmp" />
+    <Image Include="res\icon\다각형.bmp" />
+    <Image Include="res\icon\다각형_on.bmp" />
+    <Image Include="res\icon\도형격자.bmp" />
+    <Image Include="res\icon\도형격자_on.bmp" />
+    <Image Include="res\icon\둥근사각형.bmp" />
+    <Image Include="res\icon\둥근사각형_on.bmp" />
+    <Image Include="res\icon\레이어창.bmp" />
+    <Image Include="res\icon\레이어창_on.bmp" />
+    <Image Include="res\icon\마름모1.bmp" />
+    <Image Include="res\icon\마름모_on.bmp" />
+    <Image Include="res\icon\문자.bmp" />
+    <Image Include="res\icon\문자_on.bmp" />
+    <Image Include="res\icon\부채꼴.bmp" />
+    <Image Include="res\icon\부채꼴_on.bmp" />
+    <Image Include="res\icon\사각형.bmp" />
+    <Image Include="res\icon\사각형_on.bmp" />
+    <Image Include="res\icon\삼각형.bmp" />
+    <Image Include="res\icon\삼각형_on.bmp" />
+    <Image Include="res\icon\선.bmp" />
+    <Image Include="res\icon\선_on.bmp" />
+    <Image Include="res\icon\연결선(꺽임곡선).bmp" />
+    <Image Include="res\icon\연결선(꺽임곡선)_on.bmp" />
+    <Image Include="res\icon\연결선(꺽임선).bmp" />
+    <Image Include="res\icon\연결선(꺽임선)_on.bmp" />
+    <Image Include="res\icon\연결선.bmp" />
+    <Image Include="res\icon\연결선_on.bmp" />
+    <Image Include="res\icon\오각형.bmp" />
+    <Image Include="res\icon\오각형_on.bmp" />
+    <Image Include="res\icon\육각형.bmp" />
+    <Image Include="res\icon\육각형_on.bmp" />
+    <Image Include="res\icon\타원.bmp" />
+    <Image Include="res\icon\타원_on.bmp" />
+    <Image Include="res\icon\팔각형.bmp" />
+    <Image Include="res\icon\팔각형_on.bmp" />
+    <Image Include="res\icon\호.bmp" />
+    <Image Include="res\icon\호_on.bmp" />
+    <Image Include="res\info.bmp" />
+    <Image Include="res\main.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\png1.png" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\Ribonbar\3DViewer.png" />
+    <Image Include="res\Ribonbar\Analysis_Large.png" />
+    <Image Include="res\Ribonbar\Analysis_Small.png" />
+    <Image Include="res\Ribonbar\DrawShape_Large.png" />
+    <Image Include="res\Ribonbar\DrawShape_Small.png" />
+    <Image Include="res\ribonbar\font_ali.png" />
+    <Image Include="res\Ribonbar\font_align.png" />
+    <Image Include="res\Ribonbar\font_tool.png" />
+    <Image Include="res\Ribonbar\OverlayLineBow.bmp" />
+    <Image Include="res\Ribonbar\OverlayLineDesh.bmp" />
+    <Image Include="res\Ribonbar\OverlayLineWidth.bmp" />
+    <Image Include="res\Ribonbar\Overlay_Defatult.bmp" />
+    <Image Include="res\Ribonbar\Overlay_Line.bmp" />
+    <Image Include="res\Ribonbar\Overlay_Rect.bmp" />
+    <Image Include="res\Ribonbar\Palette2.bmp" />
+    <Image Include="res\Ribonbar\Screen_Large.png" />
+    <Image Include="res\Ribonbar\Screen_small.png" />
+    <Image Include="res\Ribonbar\View_Large.png" />
+    <Image Include="res\Ribonbar\View_Small.png" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_24.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\writelarge.bmp" />
+    <Image Include="res\writesmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\C4IMap.rc2" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor\00_default.cur" />
+    <None Include="res\cursor\01_zoomin.cur" />
+    <None Include="res\cursor\02_zoomout.cur" />
+    <None Include="res\cursor\03_panning.cur" />
+    <None Include="res\cursor\04_rotate.cur" />
+    <None Include="res\cursor\05_search_circle.cur" />
+    <None Include="res\cursor\05_search_point.cur" />
+    <None Include="res\cursor\05_search_polygon.cur" />
+    <None Include="res\cursor\05_search_rect.cur" />
+    <None Include="res\cursor\06_length.cur" />
+    <None Include="res\cursor\07_area.cur" />
+    <None Include="res\cursor\08_section.cur" />
+    <None Include="res\cursor\09_visible.cur" />
+    <None Include="res\cursor\10_Terrain.cur" />
+    <None Include="res\cursor\14_CoordCapture.cur" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+  </ItemGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)dist\Network\</OutDir><IntDir>$(ProjectDir)obj\Network\</IntDir><TargetName>C4IMap</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile><PreprocessorDefinitions>C4MAP_ENABLE_LOCAL=0;C4MAP_ENABLE_OGC=1;%(PreprocessorDefinitions)</PreprocessorDefinitions></ClCompile>
+  </ItemDefinitionGroup>
+<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="BuildC4OverlaySDK" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <MSBuild Projects="$(ProjectDir)OverlaySDK\LibSrc\Overlay\Overlay.vcxproj" Targets="Build" Properties="Configuration=Release;Platform=x64" />
+  </Target>
+  <Target Name="CopyC4OverlaySDK" AfterTargets="Build" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Copy SourceFiles="$(ProjectDir)OverlaySDK\bin\x64\Release\C4Overlay.dll" DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" />
+  </Target>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="CopyMapSourcesCatalog" AfterTargets="Build" Condition="!Exists('$(TargetDir)map-sources.xml')">
+    <Copy SourceFiles="$(ProjectDir)map-sources.xml" DestinationFolder="$(TargetDir)" />
+  </Target>
+  <ItemGroup>
+    <ClInclude Include="BaseMapOptions.h" />
+    <ClInclude Include="MapDecoration.h" />
+    <None Include="BaseMapDetails.inc" />
+    <None Include="base-map.xml" />
+    <None Include="BaseMap-Guide.md" />
+  </ItemGroup>
+  <Target Name="CopyBaseMapCatalog" AfterTargets="Build" Condition="!Exists('$(TargetDir)base-map.xml')">
+    <Copy SourceFiles="$(ProjectDir)base-map.xml" DestinationFolder="$(TargetDir)" />
+  </Target>
+</Project>

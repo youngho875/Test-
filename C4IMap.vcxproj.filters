@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="APP">
+      <UniqueIdentifier>{f08534b5-dd6c-46d0-947e-ac7e22526d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockBar">
+      <UniqueIdentifier>{9f0e974b-8a27-44ee-8834-350a603f2c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6aa2d144-96d9-4bc7-a5ce-7c5d34fa8ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{740bcd10-efc1-4b31-b7ea-43154281a92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IndexMapWnd.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemView.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerView.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectManager.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectOrderList.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectViewTree.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPropertiesWnd.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputLogList.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputSearchList.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeView.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewList.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="C4IMap.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="C4IMapDoc.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="C4IMapView.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="C4IMapViewHeader.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="ComDefStringValue.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDefine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pointStruct.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TmsMgr.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeT.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexMapView.h">
+      <Filter>DockBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSources.h" />
+    <ClInclude Include="MapBuildOptions.h" />
+    <ClInclude Include="LocalOverlay.h" />
+    <ClInclude Include="BaseMapOptions.h" />
+    <ClInclude Include="MapDecoration.h" />
+    <ClInclude Include="GPoint.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C4IMap.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapDoc.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_Draw.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_Etc.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_Init.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_Menu.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_MouseEvent.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="C4IMapView_Hitest.cpp">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewList.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeView.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerView.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemView.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputLogList.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputSearchList.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexMapWnd.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexMapView.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectManager.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectOrderList.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectViewTree.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPropertiesWnd.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>DockBar</Filter>
+    </ClCompile>
+    <ClCompile Include="TmsMgr.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeT.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSources.cpp" />
+    <ClCompile Include="LocalOverlay.cpp" />
+    <ClCompile Include="GPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C4IMap.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\C4IMapDoc.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\C4IMap.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\선_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\곡선_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선(꺽임곡선)_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선(꺽임선)_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\sort_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\class_vi.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\png1.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\View_Large.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\View_Small.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Screen_small.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Screen_Large.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\3DViewer.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\DrawShape_Large.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\DrawShape_Small.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Overlay_Line.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\OverlayLineBow.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\OverlayLineDesh.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\OverlayLineWidth.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Overlay_Rect.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Overlay_Defatult.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Palette2.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\font_tool.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\font_align.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Analysis_Small.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\Ribonbar\Analysis_Large.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ribonbar\font_ali.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="..\LIBSrc\GeoDC\res\disconnect.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\disconnect.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\indexmap.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\indexmap_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\타원_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\부채꼴_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\다각선_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\문자_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\그림_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\둥근사각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\삼각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\사각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\오각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\육각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\팔각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\도형격자_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\레이어창_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\다각형_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\마름모1.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\곡선.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\팔각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\타원.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\도형격자.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\그림.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\레이어창.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\선.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선(꺽임곡선).bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선(꺽임선).bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\연결선.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\오각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\부채꼴.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\다각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\다각선.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\사각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\둥근사각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\육각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\문자.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\삼각형.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\마름모_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\호.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon\호_on.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\mapview_tree.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\mapview_tree_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\maporder_list.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\maporder_list_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\tree_check.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\overlay_toolbar.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\overlay_toolbar_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\overlay_tree_24.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DockPanes\overlay_tree.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\over_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\over_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\over_center.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\focus_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\focus_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\focus_center.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\disable_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\disable_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\disable_center.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\default_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\default_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\default_center.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\click_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\click_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\button\click_center.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ButtonBitmap\move_left.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ButtonBitmap\move_left_click.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ButtonBitmap\move_right.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\ButtonBitmap\move_right_click.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\C4IMap.rc2">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\00_default.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\01_zoomin.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\02_zoomout.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\03_panning.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\04_rotate.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\05_search_rect.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\05_search_point.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\05_search_circle.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\05_search_polygon.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\06_length.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\07_area.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\08_section.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\09_visible.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\10_Terrain.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\cursor\14_CoordCapture.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="BaseMapDetails.inc" />
+    <None Include="base-map.xml" />
+    <None Include="BaseMap-Guide.md" />
+  </ItemGroup>
+</Project>

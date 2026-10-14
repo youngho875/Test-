@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BaseMap version="1">
+  <!-- 지도레이어관리의 체크 변경은 visual 값에 저장됩니다. 직접 편집 후 프로그램을 다시 실행하세요. -->
+  <SmallScale>
+    <Path>D:/map/small_scale_map/small_map.shp</Path>
+    <LabelPath>D:/map/small_scale_map/name_map.shp</LabelPath>
+    <visual>true</visual>
+  </SmallScale>
+  <World>
+    <Path>D:/map/world_map/Continents.shp</Path>
+    <BoundaryPath>D:/map/world_map/national_boundary_polygon.shp</BoundaryPath>
+    <LabelPath>D:/map/world_map/placenam.shp</LabelPath>
+    <CityPath>D:/map/world_map/World_city_pt.shp</CityPath>
+    <visual>true</visual>
+  </World>
+  <NaturalEarth>
+    <Path>D:/webcop/NaturalEarthII</Path>
+    <visual>true</visual>
+  </NaturalEarth>
+  <!-- 소축척/세계지도 중 체크된 지도의 지명만 표시합니다. -->
+  <Names>
+    <visual>true</visual>
+  </Names>
+  <ScaleStatus>true</ScaleStatus>
+  <ScaleBar>true</ScaleBar>
+  <Compass>true</Compass>
+</BaseMap>
